@@ -64,13 +64,13 @@ def write_annotaion_count(annotation_dir, csv_file_path, arrange):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Counting label in pascal voc format xml files.')
     parser.add_argument(
-        'xml_dir', 
+        '-i', '--xml_dir', 
         type=str, 
         help='path to xml dir.'
         )
 
     parser.add_argument(
-        'csv_file_path', 
+        '-o', '--csv_file_path', 
         type=str, 
         help='csv file path to which count is stored.', 
         default='count_file.csv'
