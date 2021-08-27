@@ -55,9 +55,9 @@ Following modules are needed:
 
 ## Release:
 
-| Tag  | Date | Description |
-| ---- | ---- | ----------- |
-|      |      |             |
+| Tag    | Date        | Description |
+| ------ | ----------- | ----------- |
+| v0.0.1 | 27-Aug-2021 | Test Passed |
 
 ## Authors
 
