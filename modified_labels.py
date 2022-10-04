@@ -11,8 +11,8 @@ from multiprocessing import Pool, cpu_count
 import concurrent.futures
 import argparse
 
-from includes.read_write_xml import read_annotation_file, write_annotation_file_from_dict
-from includes.label import remove_labels_from_det_dict, modify_labels_in_det_dict
+from utils.read_write_annotation import read_annotation_file, write_annotation_file_from_dict
+from utils.label import remove_labels_from_det_dict, modify_labels_in_det_dict
 
 
 # -----------------------------------------------

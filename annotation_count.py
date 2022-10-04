@@ -9,8 +9,8 @@ import pandas as pd
 from multiprocessing import Pool, cpu_count
 import argparse
 
-from includes.read_write_xml import read_annotation_file
-from includes.annotation_count import annotation_count_from_det_dict
+from utils.read_write_annotation import read_annotation_file
+from utils.annotation_count import annotation_count_from_det_dict
 
 
 # ===============================================
