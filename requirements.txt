@@ -1,3 +1,5 @@
 numpy
 pandas
 pascal-voc-writer
+opencv-python
+tqdm
