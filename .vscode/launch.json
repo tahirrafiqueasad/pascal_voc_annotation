@@ -12,7 +12,7 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": [
-                "INPUT",
+                "/media/sigma/data/ML_Dataset/BrickBanker/detection/top2k_detection_pascal_voc/test",
                 "OUTPUT"
             ]
         }

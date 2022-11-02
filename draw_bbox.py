@@ -47,6 +47,7 @@ class DrawBoundingBox():
                 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
             except:
                 print(f'ERROR: Image for annotation {anno_name} does not exists.')
+                continue
 
             # LOOPING THROUGH EACH ANNOTATION
             for det_class, det_bbox in zip(anno['anno_dict']['detection_classes'], anno['anno_dict']['detection_boxes']):
